@@ -11,8 +11,11 @@
 		49FC072E21F230E500A85113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FC072C21F230E500A85113 /* Main.storyboard */; };
 		49FC073021F230E700A85113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FC072F21F230E700A85113 /* Assets.xcassets */; };
 		49FC073321F230E700A85113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FC073121F230E700A85113 /* LaunchScreen.storyboard */; };
-		49FC073B21F2352700A85113 /* UnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC073A21F2352700A85113 /* UnlockViewController.swift */; };
 		49FC073D21F2354400A85113 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC073C21F2354400A85113 /* LockViewController.swift */; };
+		49FC073F21F2369C00A85113 /* CustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC073E21F2369C00A85113 /* CustomControl.swift */; };
+		49FC074121F2370B00A85113 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC074021F2370B00A85113 /* Animator.swift */; };
+		49FC074321F2385600A85113 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC074221F2385600A85113 /* Appearance.swift */; };
+		49FC074521F23A1A00A85113 /* ethnocentric rg it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49FC074421F23A1500A85113 /* ethnocentric rg it.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +25,11 @@
 		49FC072F21F230E700A85113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49FC073221F230E700A85113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49FC073421F230E700A85113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49FC073A21F2352700A85113 /* UnlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockViewController.swift; sourceTree = "<group>"; };
 		49FC073C21F2354400A85113 /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
+		49FC073E21F2369C00A85113 /* CustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControl.swift; sourceTree = "<group>"; };
+		49FC074021F2370B00A85113 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		49FC074221F2385600A85113 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		49FC074421F23A1500A85113 /* ethnocentric rg it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ethnocentric rg it.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				49FC072821F230E500A85113 /* AppDelegate.swift */,
 				49FC072C21F230E500A85113 /* Main.storyboard */,
+				49FC074021F2370B00A85113 /* Animator.swift */,
+				49FC073E21F2369C00A85113 /* CustomControl.swift */,
 				49FC073C21F2354400A85113 /* LockViewController.swift */,
-				49FC073A21F2352700A85113 /* UnlockViewController.swift */,
+				49FC074221F2385600A85113 /* Appearance.swift */,
+				49FC074421F23A1500A85113 /* ethnocentric rg it.ttf */,
 				49FC072F21F230E700A85113 /* Assets.xcassets */,
 				49FC073121F230E700A85113 /* LaunchScreen.storyboard */,
 				49FC073421F230E700A85113 /* Info.plist */,
@@ -127,6 +136,7 @@
 			files = (
 				49FC073321F230E700A85113 /* LaunchScreen.storyboard in Resources */,
 				49FC073021F230E700A85113 /* Assets.xcassets in Resources */,
+				49FC074521F23A1A00A85113 /* ethnocentric rg it.ttf in Resources */,
 				49FC072E21F230E500A85113 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FC074121F2370B00A85113 /* Animator.swift in Sources */,
+				49FC074321F2385600A85113 /* Appearance.swift in Sources */,
 				49FC073D21F2354400A85113 /* LockViewController.swift in Sources */,
-				49FC073B21F2352700A85113 /* UnlockViewController.swift in Sources */,
+				49FC073F21F2369C00A85113 /* CustomControl.swift in Sources */,
 				49FC072921F230E500A85113 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
