@@ -12,7 +12,7 @@ struct Appearance {
     static var black = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
     static var white = UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0)
 
-    static func setupAppearance() {
+    static func setUp() {
         UINavigationBar.appearance().barTintColor = black
         
         let textAttributes = [NSAttributedString.Key.foregroundColor: white, NSAttributedString.Key.font : titleFont(with: .title2, pointSize: 30)]

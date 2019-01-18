@@ -21,8 +21,12 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4Q-uG-WAv" customClass="CustomControl" customModule="ios_sprint6_challenge_2" customModuleProvider="target">
                                 <rect key="frame" x="67" y="394" width="241" height="44.5"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44.5" id="A8c-N7-B0e"/>
+                                    <constraint firstAttribute="width" constant="241" id="H7o-kL-BL3"/>
+                                </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Locked" translatesAutoresizingMaskIntoConstraints="NO" id="mMQ-eW-X6U">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mMQ-eW-X6U">
                                 <rect key="frame" x="87.5" y="146" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="FZg-OK-PLz"/>
@@ -32,12 +36,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="U4Q-uG-WAv" firstAttribute="top" secondItem="mMQ-eW-X6U" secondAttribute="bottom" constant="48" id="5f5-d3-QZJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U4Q-uG-WAv" secondAttribute="bottom" constant="228.5" id="K9c-Sc-bxm"/>
-                            <constraint firstItem="U4Q-uG-WAv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WCq-HT-aSb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U4Q-uG-WAv" secondAttribute="trailing" constant="67" id="Ci7-al-4NG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U4Q-uG-WAv" secondAttribute="bottom" constant="228.5" id="HUY-iX-lwe"/>
+                            <constraint firstItem="U4Q-uG-WAv" firstAttribute="top" secondItem="mMQ-eW-X6U" secondAttribute="bottom" constant="48" id="WfN-Sz-eC5"/>
                             <constraint firstItem="mMQ-eW-X6U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-87.5" id="Zhq-o9-jdt"/>
-                            <constraint firstItem="U4Q-uG-WAv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="cm6-nV-iUa"/>
                             <constraint firstItem="mMQ-eW-X6U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jD5-gA-j8k"/>
+                            <constraint firstItem="U4Q-uG-WAv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="tIY-UT-jEW"/>
+                            <constraint firstItem="U4Q-uG-WAv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wWy-QC-Sff"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -49,6 +54,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="lockImage" destination="mMQ-eW-X6U" id="0Hd-dG-iSY"/>
                         <outlet property="resetButton" destination="X4s-ak-MUz" id="Wmf-QP-cRc"/>
                     </connections>
                 </viewController>
@@ -75,7 +81,4 @@
             <point key="canvasLocation" x="135" y="116"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Locked" width="440" height="586"/>
-    </resources>
 </document>
